@@ -1,8 +1,8 @@
 In this project I developed algorithms, or sets of specific instructions, to perform tasks like creating or drawing a simple images. To do this, I used a program known as Python turtle which is developed to read code containing directional instructions and draw the corresponding image. My task was to write an algorithm for a number of different shapes and allow turtle commands to draw the shape.
 
-*Task 1*&nbsp;was basic project setup. I mounted my directory to the Personal server where I could safely save my project work on the Colby server. Next, I opened Terminal which is a computer interface that can execute text-based commands. In Terminal, I navigated to a folder named Project1 in my Personal server to make sure the work I was using/creating was from my Project1 folder. The last stage of the setup was opening Text Wrangler which is the program where we use Python code to write our programs.&nbsp;The first thing thing I did at the beginning of every program was tell Text Wrangler I want to use Python turtle. To do this, I wrote the line: from turtle import * and I used simple directional commands like forward() with a pixel distance and left() with an angle command for the turtle drawing cursor to move in every single task.
+**Task 1** was basic project setup. I mounted my directory to the Personal server where I could safely save my project work on the Colby server. Next, I opened Terminal which is a computer interface that can execute text-based commands. In Terminal, I navigated to a folder named Project1 in my Personal server to make sure the work I was using/creating was from my Project1 folder. The last stage of the setup was opening Text Wrangler which is the program where we use Python code to write our programs. The first thing thing I did at the beginning of every program was tell Text Wrangler I want to use Python turtle. To do this, I wrote the line: from turtle import * and I used simple directional commands like forward() with a pixel distance and left() with an angle command for the turtle drawing cursor to move in every single task.
 
-For *task 2{*}{*}_&nbsp;_{*}I chose to create a triangle. After writing the first line of "from turtle import \*"&nbsp;I then wrote the Python code that corresponds to turtle drawing a triangle. I saved this code in my Project1 folder as shapeA.py. The code was a set of directional instructions telling the turtle cursor where, what, and how much to draw. The code looked like:
+For **task 2**I chose to create a triangle. After writing the first line of "from turtle import" I then wrote the Python code that corresponds to turtle drawing a triangle. I saved this code in my Project1 folder as shapeA.py. The code was a set of directional instructions telling the turtle cursor where, what, and how much to draw. The code looked like:
 
 forward(100)
 left(120)
@@ -11,9 +11,9 @@ left(120)
 forward(100)
 left(120)
 
-This is *{_}ShapeA{_}{*}{*}_:_*(required image1)
+This is **ShapeA**:
 
-!Shape A Image 1.png|thumbnail,border=1,width=200!
+![Image]("Shape A Image 1.png")
 
 
 *Task 3* was to repeat the same process but with a different shape. I decided to draw a hexagon. In a new file titled shapeB.py I wrote the correspond code to instruct Python turtle to draw a hexagon.&nbsp;The first two lines of code were as follows:
