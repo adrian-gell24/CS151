@@ -1,0 +1,25 @@
+base F
+rule F [+F] [-F] F[-F] F[+F] FF
+
+list that represents rule:
+[ '[+F]', '[-F]', 'F[-F]',  'F[+F]',  'FF']
+
+
+
+replace
+
+tstring += rule[1]
+
+
+
+examples:
+F
+F[-F]
+FF[-F[+F][-F]]
+
+F
+FF
+F[+F][-F]F[+F]
+
+NON DETERMINISTIC LSYSTEM
+-Give you random replacements resulting in random trees

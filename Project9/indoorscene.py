@@ -1,0 +1,146 @@
+# Tony Karalekas
+# Spring 2015
+# CS 151 Project 9
+#
+# indoorscene.py version 1
+#---------------------------------------------
+#imports
+
+import lsystem as ls
+import shapes as s
+import turtle as t
+import turtle_interpreter as it
+import tree
+
+#===========================================================
+t.tracer(False)
+
+def wall():
+	t.up()
+	t.goto(-800,-200)
+	t.down()
+	t.begin_fill()
+	t.color("Beige")
+	t.forward(1600)
+	t.left(90)
+	t.forward(1600)
+	t.left(90)
+	t.forward(1600)
+	t.left(90)
+	t.forward(1600)
+	t.left(90)
+	t.end_fill()
+	
+
+def floor():
+	t.up()
+	t.goto(-600, -200)
+	t.down()
+	for i in range(20):
+		t.begin_fill()
+		t.color("Black")
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.end_fill()
+		t.begin_fill()
+		t.color("White")
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.end_fill()
+	t.up()
+	t.down()
+	t.goto(-1000, -250)
+	for i in range(20):
+		t.begin_fill()
+		t.color("White")
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.end_fill()
+		t.begin_fill()
+		t.color("Black")
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.end_fill()
+	t.up()
+	t.goto(-600, -300)
+	t.down()
+	for i in range(20):
+		t.begin_fill()
+		t.color("Black")
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.end_fill()
+		t.begin_fill()
+		t.color("White")
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.right(90)
+		t.forward(50)
+		t.end_fill()
+
+def painting():
+	art = s.Square(450, (1, 1, 1))
+	art.draw(-225, -100, 1, 90)
+ 	p = s.Pentagon(100, (0,0,0))
+ 	p.setColor('DarkOrchid')
+ 	p.draw(-175, 200, 1, 90)
+ 	st = s.Star(75, (0,0,0))
+ 	st.setColor('Goldenrod')
+ 	st.draw(80, 240, 1, 90)
+  	c = s.Cross(40, (0,0,0))
+  	c.setColor('LightCoral')
+  	c.draw(-130, 45, 1, 90)
+  	d = s.Diamond(100, (0,0,0))
+  	d.setColor('CadetBlue')
+  	d.draw(80, -10, 1, 90)
+  	t1 = tree.Tree(filename= 'systemGL.txt')
+	t1.setIterations(9)
+	t1.setColor('LawnGreen')
+	t1.draw(0, -75, 1, 90)
+	
+
+if __name__ == "__main__":
+	floor()
+	wall()
+	painting()
+	raw_input("Press enter to continue")	

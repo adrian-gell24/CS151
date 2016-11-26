@@ -1,0 +1,9 @@
+base A
+rule A FFFFFFFFF[B]A
+rule B FFFFFF[-D]C[+<yL>]
+rule C FFFFFF[+D]B[-<yL>]
+rule D FFFFF[+J]E[<yL>]M
+rule E FFFFF[-J]D[<yL>]M
+rule J FFF[-K]K[<yL>]M
+rule K FFF[+J]J[<yL>]M
+rule M <r[--F][-F][F][+F][++F]>
