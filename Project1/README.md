@@ -13,7 +13,7 @@ left(120)
 
 This is **ShapeA**:
 
-![Image]("Shape A Image 1.png")
+![Image](Shape\ A\ Image\ 1.png)
 
 
 *Task 3* was to repeat the same process but with a different shape. I decided to draw a hexagon. In a new file titled shapeB.py I wrote the correspond code to instruct Python turtle to draw a hexagon.&nbsp;The first two lines of code were as follows:
