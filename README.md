@@ -2,7 +2,7 @@
 Coursework from CS151: Computational Thinking at Colby College
 
 [Project 1 Writeup](https://wiki.colby.edu/display/~ajkarale/Project1)
-| [View PDF](https://github.com/akaralekas/cs151-colby/blob/master/Project1/writeup_project1.pdf)
+| [View PDF](https://github.com/akaralekas/cs151-colby/blob/master/Project1/writeup_cs151project1.pdf)
 
 [Project 2 Writeup](https://wiki.colby.edu/display/~ajkarale/Project2)
 | [View PDF](https://github.com/akaralekas/cs151-colby/blob/master/Project2/writeup_cs151project2.pdf)
